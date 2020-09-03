@@ -1,0 +1,12 @@
+.div-register{
+  position: absolute;
+  width: 600px;
+  height: 591px;
+  left: 468px;
+  top: 90px;
+  background: #FFFFFF;
+  border-radius: 4px;
+  margin-top:90;
+  margin-left:468;
+  text-align:center;
+}

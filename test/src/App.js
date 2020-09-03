@@ -10,6 +10,7 @@ import {
 import Login from "./Views/Login"
 import Register from "./Views/Register"
 import Home from "./Views/Home"
+import InfoPendaftaran from "./Views/InfoPendaftaran"
 
 function App() {
   return (
@@ -23,6 +24,9 @@ function App() {
           </Route>
           <Route path="/register">
             <Register />
+          </Route>
+          <Route path="/info">
+            <InfoPendaftaran />
           </Route>
           <Route path="/">
             <Home />

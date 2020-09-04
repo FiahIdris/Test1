@@ -18,7 +18,6 @@ function ChaptersCard({ chapter }) {
           <CardMedia
             component="img"
             alt="not available"
-            // width="20"
             image={ picture }
             title="Contemplative Reptile"
             style={ { width: "80px", height: "80px", borderRadius: "1000px", borderStyle: "solid", borderColor: "#3598DC", margin: "auto", marginTop: "30px", marginBottom: "20px" } }
@@ -27,9 +26,11 @@ function ChaptersCard({ chapter }) {
             <Typography gutterBottom variant="h5" component="h2">
               { chapter.name }
             </Typography>
-            <Typography variant="body2" color="textSecondary" component="p">
-              { chapter.address }
-            </Typography>
+            <div style={ { height: "30px" } }>
+              <Typography variant="body2" color="textSecondary" component="p">
+                { chapter.address }
+              </Typography>
+            </div>
             <Typography variant="body2" color="textSecondary" component="p" style={ { marginTop: "50px", marginBottom: "20px", color: "#3598DC" } }>
               { chapter.email }
             </Typography>

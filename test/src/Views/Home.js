@@ -4,6 +4,10 @@ import { useHistory } from "react-router-dom"
 function Home() {
   const history = useHistory()
 
+  function handleClickPendaftaran() {
+    history.push("/info")
+  }
+
   function handleClick() {
 
     localStorage.clear()
@@ -19,7 +23,9 @@ function Home() {
             <h1 style={ { textAlign: "center", marginTop: "180px" } }>Tampilkan nama email</h1>
           </div>
         </div>
-        <button style={ { backgroundColor: "#F200FF", borderRadius: "25px", width: "200px", marginLeft: "670px", marginTop: "60px" } } onClick={ handleClick }>Keluar</button>
+        <button style={ { borderRadius: "25px", width: "200px", marginLeft: "670px", marginTop: "60px" } } onClick={ handleClickPendaftaran }>Go to Pendaftaran</button>
+        <button style={ { backgroundColor: "#F200FF", borderRadius: "25px", width: "200px", marginLeft: "670px", marginTop: "30px" } } onClick={ handleClick }>Keluar</button>
+
 
       </div>
     </>

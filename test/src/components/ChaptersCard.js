@@ -8,39 +8,43 @@ import Button from '@material-ui/core/Button';
 import Typography from '@material-ui/core/Typography';
 import picture from "../assets/Ellipse_7.png"
 
-function ChaptersCard() {
+function ChaptersCard({ chapter }) {
 
 
   return (
+    <div style={ { marginLeft: "25px", marginBottom: "20px", borderRadius: "10px", textAlign: "center" } }>
+      <Card style={ { width: "215px", height: "412px" } }>
+        <CardActionArea>
+          <CardMedia
+            component="img"
+            alt="not available"
+            // width="20"
+            image={ picture }
+            title="Contemplative Reptile"
+            style={ { width: "80px", height: "80px", borderRadius: "1000px", borderStyle: "solid", borderColor: "#3598DC", margin: "auto", marginTop: "30px", marginBottom: "20px" } }
+          />
+          <CardContent>
+            <Typography gutterBottom variant="h5" component="h2">
+              { chapter.name }
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p">
+              { chapter.address }
+            </Typography>
+            <Typography variant="body2" color="textSecondary" component="p" style={ { marginTop: "50px", marginBottom: "20px", color: "#3598DC" } }>
+              { chapter.email }
+            </Typography>
+          </CardContent>
+        </CardActionArea>
+        <CardActions>
+          <div style={ { borderColor: "#3598DC", borderStyle: "solid", borderWidth: "1px", borderRadius: "5px", margin: "auto", marginBottom: "0px" } }>
+            <Button size="small" style={ { color: "#3598DC", marginBottom: "0px" } }>
+              Kontak Chapter
+            </Button>
+          </div>
 
-    <Card style={ { width: "215px", height: "412px" } }>
-      <CardActionArea>
-        <CardMedia
-          component="img"
-          alt="not available"
-          // height="50"
-          width="30"
-          image={ picture }
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography gutterBottom variant="h5" component="h2">
-            Kantor Nasional
-        </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            Jl. Limau No. 22, Kebayoran Baru - Jakarta 12130
-        </Typography>
-          <Typography variant="body2" color="textSecondary" component="p">
-            @binaantarbudaya
-        </Typography>
-        </CardContent>
-      </CardActionArea>
-      <CardActions>
-        <Button size="small" color="primary">
-          Kontak Chapter
-      </Button>
-      </CardActions>
-    </Card>
+        </CardActions>
+      </Card>
+    </div>
   )
 }
 

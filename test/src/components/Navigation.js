@@ -14,7 +14,7 @@ function Navigation() {
         direction="row"
         item xs={ 10 }
       >
-        <h5 style={ { margin: "20px" } }>LOGO</h5>
+        <h5 style={ { margin: "20px", color: "#3598DC" } }>LOGO</h5>
       </Grid>
       <Grid
         container

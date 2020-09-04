@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Kantor Nasional",
+    "address": "Jl. Limau No. 22, Kebayoran Baru - Jakarta 12130",
+    "email": "@binaantarbudaya"
+  },
+  {
+    "name": "Ambon",
+    "address": "Kantor Sinode GPM. (Ruang Balitbang GPM)",
+    "email": "@BinaBudAmbon"
+  },
+  {
+    "name": "Balikpapan",
+    "address": "Jl. Serindit IV B2 RT. 04 No. 35 Gn. Bahagia, Balikpapan",
+    "email": "@Binabudapp"
+  },
+  {
+    "name": "Bandung",
+    "address": "Jl. Bengawan No. 54 (Paviliun), Bandung, 40114, Jawa Barat",
+    "email": "@binabudbdg"
+  },
+  {
+    "name": "Banjarmasin",
+    "address": "LBPP LIA Jl. Gatot Subroto No. 1, Banjarmasin",
+    "email": "@BinabudBJMg"
+  },
+  {
+    "name": "Banda Aceh",
+    "address": "Jln. Pangraed 8 Lorong 3 No. 3, Le Masen Kayee Adang, Kec. Syiah Kuala, Banda Aceh 23116",
+    "email": "@BinaBudAmbon"
+  },
+  {
+    "name": "Bogor",
+    "address": "Jl. Merak No. 9, Tanah Sareal, Bogor, Jawa Barat",
+    "email": "@binabudbgr"
+  },
+  {
+    "name": "Denpasar",
+    "address": "Dinas Kebudayaan Kota Denpasar, Jl. Hayam Wuruk No. 69, Denpasar",
+    "email": "@binabuddps "
+  },
+  {
+    "name": "Jakarta",
+    "address": "Kompleks Golden Plaza G-26 Jl. RS. Fatmawati No. 15 Jakarta, Indonesia, 12420 ",
+    "email": "@binabudjkt"
+  },
+  {
+    "name": "Karawang",
+    "address": "SMAN 1 Karawang Jl. Ahmad Yani No. 22 Karawang",
+    "email": "@BinaBudAmbon"
+  }
+]

@@ -10,34 +10,34 @@ import yes_logo3 from "../assets/kakehasi_logo1.svg"
 function ProgramsCard() {
 
   return (
-    <>
+    <div style={ { display: "flex", justifyContent: "space-between" } }>
       <Grid
         container
         direction="column"
-        item xs={ 2 }
+        item xs={ 3 }
       >
-        <Avatar alt="not available" src={ yes_logo1 } />
-        <Button style={{marginTop:"20px", fontSize:"10px"}} variant="contained">Pilih Program</Button>
+        <Avatar variant="square" alt="not available" src={ yes_logo1 } style={ { width: "100px", height: "100px" } } />
+        <Button style={ { marginTop: "30px" } } variant="contained">Pilih Program</Button>
       </Grid>
 
       <Grid
         container
         direction="column"
-        item xs={ 2 }
+        item xs={ 3 }
       >
-        <Avatar alt="not available" src={ yes_logo2 } />
-        <Button style={{marginTop:"20px", fontSize:"10px"}} variant="contained">Pilih Program</Button>
+        <Avatar variant="square" alt="not available" src={ yes_logo2 } style={ { width: "100px", height: "100px" } } />
+        <Button style={ { marginTop: "30px" } } variant="contained">Pilih Program</Button>
       </Grid>
 
       <Grid
         container
         direction="column"
-        item xs={ 2 }
+        item xs={ 3 }
       >
-        <Avatar alt="not available" src={ yes_logo3 } />
-        <Button style={{marginTop:"20px", fontSize:"10px"}} variant="contained">Pilih Program</Button>
+        <Avatar variant="square" alt="not available" src={ yes_logo3 } style={ { width: "100px", height: "100px" } } />
+        <Button style={ { marginTop: "30px" } } variant="contained">Pilih Program</Button>
       </Grid>
-    </>
+    </div >
   )
 }
 

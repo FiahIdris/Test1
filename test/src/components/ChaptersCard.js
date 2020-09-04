@@ -20,7 +20,7 @@ function ChaptersCard({ chapter }) {
             alt="not available"
             image={ picture }
             title="Contemplative Reptile"
-            style={ { width: "80px", height: "80px", borderRadius: "1000px", borderStyle: "solid", borderColor: "#3598DC", margin: "auto", marginTop: "30px", marginBottom: "20px" } }
+            style={ { width: "80px", height: "80px", borderRadius: "1000px", borderStyle: "solid", borderColor: "#d3dbff", margin: "auto", marginTop: "30px", marginBottom: "20px" } }
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="h2">

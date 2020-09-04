@@ -51,7 +51,7 @@ function InfoPendaftaran() {
               justify="center"
               alignItems="center"
               item xs={ 8 }>
-              <p style={ { textAlign: "center" } }>Tentang Bina Antar Budaya</p>
+              <p style={ { textAlign: "center", fontWeight: "bold", fontSize: "15px" } }>Tentang Bina Antar Budaya</p>
               <p style={ { textAlign: "center" } }>Bina Antarbudaya adalah organisasi pendidikan antarbudaya berbasis relawan, yang memberikan kesempatan untuk memperoleh pendidikan antarbudaya secara global. Sejak didirikan pada tahun 1985, Bina Antarbudaya telah mengirim lebih dari 3000 siswa Indonesia dan menerima lebih dari 1500 siswa asing dari berbagai Negara. Saat ini Bina Antarbudaya telah memiliki 20 chapter di seluruh Indonesia. Bina Antarbudaya merupakan mitra AFS Intercultural Programs, salah satu organisasi pertukaran antarbudaya terbesar di dunia yang beroperasi di lebih dari 60 negara di lima benua.</p>
             </Grid>
           </div>

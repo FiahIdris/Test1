@@ -11,7 +11,7 @@ function Home() {
   function handleClick() {
 
     localStorage.clear()
-    history.push("/login")
+    history.push("/register")
   }
   return (
 

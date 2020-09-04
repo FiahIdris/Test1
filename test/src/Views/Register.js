@@ -11,7 +11,7 @@ function Register() {
     if (email && password === confirmPassword) {
       localStorage.setItem("password", password)
       localStorage.setItem("email", email)
-      history.push("/")
+      history.push("/home")
     }
 
   }
@@ -19,7 +19,6 @@ function Register() {
   function handleClick() {
     history.push('/login')
   }
-  console.log(email)
   return (
 
     <>

@@ -3,8 +3,7 @@ import './App.css';
 import {
   BrowserRouter as Router,
   Switch,
-  Route,
-  Link
+  Route
 
 } from "react-router-dom"
 import Login from "./Views/Login"
@@ -16,20 +15,18 @@ function App() {
   return (
     <div className="App">
       <Router>
-
-
         <Switch>
+          <Route path="/home">
+            <Home />
+          </Route>
           <Route path="/login">
             <Login />
-          </Route>
-          <Route path="/register">
-            <Register />
           </Route>
           <Route path="/info">
             <InfoPendaftaran />
           </Route>
           <Route path="/">
-            <Home />
+            <Register />
           </Route>
         </Switch>
       </Router>

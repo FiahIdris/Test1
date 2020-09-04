@@ -10,7 +10,7 @@ function Login() {
     if (email && password) {
       localStorage.setItem("password", password)
       localStorage.setItem("email", email)
-      history.push("/")
+      history.push("/home")
     }
 
 
